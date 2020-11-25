@@ -14,7 +14,8 @@
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 */
-@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700&display=swap"); */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 /*
  * 	Default theme - Owl Carousel CSS File
  */
@@ -67,6 +68,7 @@
     --behance: #0057ff;
     --twitter: #1da1f2;
     --slack: #3aaf85;
+    --instagram:#A91E2C;
     --breakpoint-xs: 0;
     --breakpoint-sm: 576px;
     --breakpoint-md: 768px;
@@ -83,7 +85,7 @@
 }
 
 html {
-    font-family: sans-serif;
+    font-family: "Roboto","sans-serif";
     line-height: 1.15;
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: rgba(38, 40, 51, 0);
@@ -95,13 +97,13 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
     margin: 0;
-    font-family: "Nunito Sans", sans-serif;
+    font-family: "Roboto","sans-serif";
     font-size: 1rem;
     font-weight: 300;
     line-height: 1.5;
     color: #44476A;
     text-align: left;
-    background-color: #e6e7ee;
+    background-color: #D1D9E6
 }
 
 [tabindex="-1"]:focus {
@@ -16923,7 +16925,7 @@ a.text-slack:hover, a.text-slack:focus {
   h3 {
         page-break-after: avoid;
     }
-  @    page {
+    page {
         size: a3;
     }
 
@@ -28859,7 +28861,7 @@ a.badge-slack:hover, a.badge-slack:focus {
 
 .profile-page .card-profile .card-profile-stats > div .description {
     font-size: .875rem;
-    color: #b1bcce;
+    color: #57c1ff;
 }
 
 .profile-page .card-profile .card-profile-actions {
